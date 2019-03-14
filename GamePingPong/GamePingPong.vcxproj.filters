@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{d3f00f71-1a77-4e6f-9860-f8fa1c72261f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MenuScene">
+      <UniqueIdentifier>{4ecd3017-3b16-4f6f-8972-588be5f20491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameScene">
+      <UniqueIdentifier>{bcb4695d-6d59-4b63-a65a-82b89cdedf08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene">
+      <UniqueIdentifier>{5798fce2-7d0c-4c52-a49b-6c3981ab0e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{57a0c96b-9dcc-447b-a5e2-c7e54ca2b97f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Keyboard">
+      <UniqueIdentifier>{28d56af9-f1da-4fe7-ad98-67041d2b545c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{fe792495-5063-4639-84aa-f0eb0ac2c314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bar">
+      <UniqueIdentifier>{0a1ac080-6ef3-4b65-946c-276d7120789a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\IObject">
+      <UniqueIdentifier>{e0a33f4e-5899-4e46-901d-b6192ede9a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{5b8167fa-bd06-4a6d-a661-5512ba72bb5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ChooseTypeScene">
+      <UniqueIdentifier>{ca7d59dc-a45b-46cb-be21-48832c5a5b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Object\Ball">
+      <UniqueIdentifier>{a08e5951-201f-40fa-9d54-e9565d954cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{3176604a-ccc5-42c3-a4f8-10d87a7eabb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>Scene\MenuScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Input\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseTypeScene.cpp">
+      <Filter>Scene\ChooseTypeScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>Object\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Object\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>Scene\MenuScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="IObject.h">
+      <Filter>Object\IObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseTypeScene.h">
+      <Filter>Scene\ChooseTypeScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Untils.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>Object\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Object\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ball.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="menuScene.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="numbers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="chooseTypeScene.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
